@@ -1,0 +1,20 @@
+{
+	"name" : "",
+	"town_name" : "Riverdale",
+	"game_date" : {
+		"day" : 21,
+		"month" : 2,
+		"year" : 1000,
+		"hour" : 4,
+		"minute" : 42
+	},
+	"timestamp" : 1499799229531,
+	"time" : "7/11/2017, 8:53:49 PM",
+	"jobs" : {
+		"crafters" : 6,
+		"workers" : 8,
+		"soldiers" : 2
+	},
+	"version" : "0.22.0.735",
+	"save_version" : 12
+}

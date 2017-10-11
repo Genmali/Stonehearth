@@ -1,0 +1,993 @@
+{
+	"header" : {
+		"preview_image" : "\/r\/saved_objects\/stonehearth\/building_templates\/cook's workshop.png",
+		"name" : "Cook's Workshop",
+		"cost" : {
+			"items" : {
+				"stonehearth:furniture:writing_desk" : 1,
+				"stonehearth:cook:mill" : 1,
+				"stonehearth:decoration:wooden_wall_lantern" : 4,
+				"stonehearth:containers:leather_bound_chest" : 2,
+				"stonehearth:cook:workbench" : 1,
+				"stonehearth:furniture:comfy_chair" : 1,
+				"stonehearth:decoration:wooden_sign_cook" : 1,
+				"stonehearth:cook:oven" : 1
+			},
+			"resources" : {
+				"wood resource" : 462
+			}
+		}
+	},
+	"root" : {
+		"stonehearth:building" : {
+			"structures" : {
+				"stonehearth:roof" : {},
+				"stonehearth:column" : {},
+				"stonehearth:stairs" : {},
+				"stonehearth:fixture_fabricator" : [
+					5042664,
+					5159770,
+					5069643,
+					5046071,
+					5104290,
+					4989720,
+					5022184,
+					5020963,
+					5068932,
+					4988521,
+					5104014,
+					5023756
+				],
+				"stonehearth:floor" : [
+					4946787,
+					4952049
+				],
+				"stonehearth:wall" : {}
+			}
+		},
+		"id" : 4946748,
+		"uri" : "stonehearth:build:prototypes:building",
+		"children" : {
+			"4952049" : {
+				"stonehearth:floor" : {
+					"connected_to" : {},
+					"category" : "slab"
+				},
+				"mob" : {
+					"orientation" : {
+						"y" : 0,
+						"x" : 0,
+						"w" : 1,
+						"z" : 0
+					},
+					"position" : {
+						"y" : 0,
+						"x" : 0,
+						"z" : -9
+					}
+				},
+				"stonehearth:construction_data" : {},
+				"shape" : [
+					{
+						"max" : {
+							"y" : 6,
+							"x" : 7,
+							"z" : 4
+						},
+						"min" : {
+							"y" : 5,
+							"x" : 6,
+							"z" : 0
+						},
+						"tag" : 1581360
+					},
+					{
+						"max" : {
+							"y" : 7,
+							"x" : 7,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 6,
+							"x" : 6,
+							"z" : 3
+						},
+						"tag" : 1581360
+					},
+					{
+						"max" : {
+							"y" : 6,
+							"x" : 11,
+							"z" : 4
+						},
+						"min" : {
+							"y" : 5,
+							"x" : 10,
+							"z" : 0
+						},
+						"tag" : 1581360
+					},
+					{
+						"max" : {
+							"y" : 7,
+							"x" : 11,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 6,
+							"x" : 10,
+							"z" : 3
+						},
+						"tag" : 1581360
+					},
+					{
+						"max" : {
+							"y" : 2,
+							"x" : 1,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 0,
+							"x" : 0,
+							"z" : 0
+						},
+						"tag" : 2042675
+					},
+					{
+						"max" : {
+							"y" : 5,
+							"x" : 12,
+							"z" : 1
+						},
+						"min" : {
+							"y" : 4,
+							"x" : 0,
+							"z" : 0
+						},
+						"tag" : 2042675
+					},
+					{
+						"max" : {
+							"y" : 5,
+							"x" : 1,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 4,
+							"x" : 0,
+							"z" : 1
+						},
+						"tag" : 2042675
+					},
+					{
+						"max" : {
+							"y" : 6,
+							"x" : 1,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 5,
+							"x" : 0,
+							"z" : 4
+						},
+						"tag" : 2042675
+					},
+					{
+						"max" : {
+							"y" : 2,
+							"x" : 13,
+							"z" : 1
+						},
+						"min" : {
+							"y" : 0,
+							"x" : 1,
+							"z" : 0
+						},
+						"tag" : 2042675
+					},
+					{
+						"max" : {
+							"y" : 5,
+							"x" : 13,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 4,
+							"x" : 12,
+							"z" : 0
+						},
+						"tag" : 2042675
+					},
+					{
+						"max" : {
+							"y" : 2,
+							"x" : 13,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 0,
+							"x" : 12,
+							"z" : 1
+						},
+						"tag" : 2042675
+					},
+					{
+						"max" : {
+							"y" : 6,
+							"x" : 13,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 5,
+							"x" : 12,
+							"z" : 4
+						},
+						"tag" : 2042675
+					},
+					{
+						"max" : {
+							"y" : 6,
+							"x" : 2,
+							"z" : 4
+						},
+						"min" : {
+							"y" : 5,
+							"x" : 0,
+							"z" : 0
+						},
+						"tag" : 2042689
+					},
+					{
+						"max" : {
+							"y" : 7,
+							"x" : 2,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 6,
+							"x" : 0,
+							"z" : 3
+						},
+						"tag" : 2042689
+					},
+					{
+						"max" : {
+							"y" : 6,
+							"x" : 6,
+							"z" : 4
+						},
+						"min" : {
+							"y" : 5,
+							"x" : 3,
+							"z" : 0
+						},
+						"tag" : 2042689
+					},
+					{
+						"max" : {
+							"y" : 7,
+							"x" : 6,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 6,
+							"x" : 3,
+							"z" : 3
+						},
+						"tag" : 2042689
+					},
+					{
+						"max" : {
+							"y" : 6,
+							"x" : 10,
+							"z" : 4
+						},
+						"min" : {
+							"y" : 5,
+							"x" : 7,
+							"z" : 0
+						},
+						"tag" : 2042689
+					},
+					{
+						"max" : {
+							"y" : 7,
+							"x" : 10,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 6,
+							"x" : 7,
+							"z" : 3
+						},
+						"tag" : 2042689
+					},
+					{
+						"max" : {
+							"y" : 6,
+							"x" : 13,
+							"z" : 4
+						},
+						"min" : {
+							"y" : 5,
+							"x" : 11,
+							"z" : 0
+						},
+						"tag" : 2042689
+					},
+					{
+						"max" : {
+							"y" : 7,
+							"x" : 13,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 6,
+							"x" : 11,
+							"z" : 3
+						},
+						"tag" : 2042689
+					},
+					{
+						"max" : {
+							"y" : 6,
+							"x" : 0,
+							"z" : 4
+						},
+						"min" : {
+							"y" : 5,
+							"x" : -1,
+							"z" : -1
+						},
+						"tag" : 2964826
+					},
+					{
+						"max" : {
+							"y" : 7,
+							"x" : 0,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 6,
+							"x" : -1,
+							"z" : 3
+						},
+						"tag" : 2964826
+					},
+					{
+						"max" : {
+							"y" : 7,
+							"x" : 14,
+							"z" : 11
+						},
+						"min" : {
+							"y" : 6,
+							"x" : -1,
+							"z" : 10
+						},
+						"tag" : 2964826
+					},
+					{
+						"max" : {
+							"y" : 6,
+							"x" : 13,
+							"z" : 0
+						},
+						"min" : {
+							"y" : 5,
+							"x" : 0,
+							"z" : -1
+						},
+						"tag" : 2964826
+					},
+					{
+						"max" : {
+							"y" : 6,
+							"x" : 14,
+							"z" : 4
+						},
+						"min" : {
+							"y" : 5,
+							"x" : 13,
+							"z" : -1
+						},
+						"tag" : 2964826
+					},
+					{
+						"max" : {
+							"y" : 7,
+							"x" : 14,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 6,
+							"x" : 13,
+							"z" : 3
+						},
+						"tag" : 2964826
+					},
+					{
+						"max" : {
+							"y" : 3,
+							"x" : 2,
+							"z" : 1
+						},
+						"min" : {
+							"y" : 2,
+							"x" : 0,
+							"z" : 0
+						},
+						"tag" : 7769234
+					},
+					{
+						"max" : {
+							"y" : 4,
+							"x" : 1,
+							"z" : 2
+						},
+						"min" : {
+							"y" : 3,
+							"x" : 0,
+							"z" : 0
+						},
+						"tag" : 7769234
+					},
+					{
+						"max" : {
+							"y" : 3,
+							"x" : 1,
+							"z" : 2
+						},
+						"min" : {
+							"y" : 2,
+							"x" : 0,
+							"z" : 1
+						},
+						"tag" : 7769234
+					},
+					{
+						"max" : {
+							"y" : 4,
+							"x" : 1,
+							"z" : 5
+						},
+						"min" : {
+							"y" : 2,
+							"x" : 0,
+							"z" : 4
+						},
+						"tag" : 7769234
+					},
+					{
+						"max" : {
+							"y" : 4,
+							"x" : 1,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 2,
+							"x" : 0,
+							"z" : 7
+						},
+						"tag" : 7769234
+					},
+					{
+						"max" : {
+							"y" : 4,
+							"x" : 2,
+							"z" : 1
+						},
+						"min" : {
+							"y" : 3,
+							"x" : 1,
+							"z" : 0
+						},
+						"tag" : 7769234
+					},
+					{
+						"max" : {
+							"y" : 4,
+							"x" : 5,
+							"z" : 1
+						},
+						"min" : {
+							"y" : 2,
+							"x" : 4,
+							"z" : 0
+						},
+						"tag" : 7769234
+					},
+					{
+						"max" : {
+							"y" : 4,
+							"x" : 9,
+							"z" : 1
+						},
+						"min" : {
+							"y" : 2,
+							"x" : 8,
+							"z" : 0
+						},
+						"tag" : 7769234
+					},
+					{
+						"max" : {
+							"y" : 4,
+							"x" : 13,
+							"z" : 1
+						},
+						"min" : {
+							"y" : 2,
+							"x" : 11,
+							"z" : 0
+						},
+						"tag" : 7769234
+					},
+					{
+						"max" : {
+							"y" : 4,
+							"x" : 13,
+							"z" : 2
+						},
+						"min" : {
+							"y" : 2,
+							"x" : 12,
+							"z" : 1
+						},
+						"tag" : 7769234
+					},
+					{
+						"max" : {
+							"y" : 4,
+							"x" : 13,
+							"z" : 5
+						},
+						"min" : {
+							"y" : 2,
+							"x" : 12,
+							"z" : 4
+						},
+						"tag" : 7769234
+					},
+					{
+						"max" : {
+							"y" : 4,
+							"x" : 13,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 2,
+							"x" : 12,
+							"z" : 7
+						},
+						"tag" : 7769234
+					},
+					{
+						"max" : {
+							"y" : 6,
+							"x" : 3,
+							"z" : 4
+						},
+						"min" : {
+							"y" : 5,
+							"x" : 2,
+							"z" : 0
+						},
+						"tag" : 1581360
+					},
+					{
+						"max" : {
+							"y" : 7,
+							"x" : 3,
+							"z" : 10
+						},
+						"min" : {
+							"y" : 6,
+							"x" : 2,
+							"z" : 3
+						},
+						"tag" : 1581360
+					}
+				],
+				"uri" : "stonehearth:build:prototypes:floor",
+				"children" : {
+					"5068932" : {
+						"mob" : {
+							"orientation" : {
+								"y" : 1,
+								"x" : 0,
+								"w" : 0,
+								"z" : 0
+							},
+							"position" : {
+								"y" : 3,
+								"x" : 8,
+								"z" : 1
+							}
+						},
+						"stonehearth:fixture_fabricator" : {
+							"normal" : {
+								"y" : 0,
+								"x" : 0,
+								"z" : 1
+							},
+							"fixture_uri" : "stonehearth:decoration:wooden_wall_lantern",
+							"rotation" : 180
+						},
+						"uri" : "\/stonehearth\/entities\/decoration\/wooden_wall_lantern\/wooden_wall_lantern_ghost.json",
+						"stonehearth:construction_progress" : {
+							"building_entity" : 4946748,
+							"fabricator_component_name" : "stonehearth:fixture_fabricator"
+						}
+					},
+					"5046071" : {
+						"mob" : {
+							"orientation" : {
+								"y" : 0.707107,
+								"x" : 0,
+								"w" : -0.707107,
+								"z" : 0
+							},
+							"position" : {
+								"y" : 3,
+								"x" : 1,
+								"z" : 8
+							}
+						},
+						"stonehearth:fixture_fabricator" : {
+							"normal" : {
+								"y" : 0,
+								"x" : 1,
+								"z" : 0
+							},
+							"fixture_uri" : "stonehearth:decoration:wooden_wall_lantern",
+							"rotation" : 270
+						},
+						"uri" : "\/stonehearth\/entities\/decoration\/wooden_wall_lantern\/wooden_wall_lantern_ghost.json",
+						"stonehearth:construction_progress" : {
+							"building_entity" : 4946748,
+							"fabricator_component_name" : "stonehearth:fixture_fabricator"
+						}
+					},
+					"5159770" : {
+						"mob" : {
+							"orientation" : {
+								"y" : 1,
+								"x" : 0,
+								"w" : 0,
+								"z" : 0
+							},
+							"position" : {
+								"y" : 5,
+								"x" : 0,
+								"z" : 10
+							}
+						},
+						"stonehearth:fixture_fabricator" : {
+							"normal" : {
+								"y" : 0,
+								"x" : 0,
+								"z" : 1
+							},
+							"fixture_uri" : "stonehearth:decoration:wooden_sign_cook",
+							"rotation" : 180
+						},
+						"uri" : "\/stonehearth\/entities\/decoration\/wooden_sign_cook\/wooden_sign_cook_ghost.json",
+						"stonehearth:construction_progress" : {
+							"building_entity" : 4946748,
+							"fabricator_component_name" : "stonehearth:fixture_fabricator"
+						}
+					},
+					"5042664" : {
+						"mob" : {
+							"orientation" : {
+								"y" : 0.707107,
+								"x" : 0,
+								"w" : 0.707107,
+								"z" : 0
+							},
+							"position" : {
+								"y" : 3,
+								"x" : 11,
+								"z" : 8
+							}
+						},
+						"stonehearth:fixture_fabricator" : {
+							"normal" : {
+								"y" : 0,
+								"x" : -1,
+								"z" : 0
+							},
+							"fixture_uri" : "stonehearth:decoration:wooden_wall_lantern",
+							"rotation" : 90
+						},
+						"uri" : "\/stonehearth\/entities\/decoration\/wooden_wall_lantern\/wooden_wall_lantern_ghost.json",
+						"stonehearth:construction_progress" : {
+							"building_entity" : 4946748,
+							"fabricator_component_name" : "stonehearth:fixture_fabricator"
+						}
+					},
+					"5069643" : {
+						"mob" : {
+							"orientation" : {
+								"y" : 1,
+								"x" : 0,
+								"w" : 0,
+								"z" : 0
+							},
+							"position" : {
+								"y" : 3,
+								"x" : 4,
+								"z" : 1
+							}
+						},
+						"stonehearth:fixture_fabricator" : {
+							"normal" : {
+								"y" : 0,
+								"x" : 0,
+								"z" : 1
+							},
+							"fixture_uri" : "stonehearth:decoration:wooden_wall_lantern",
+							"rotation" : 180
+						},
+						"uri" : "\/stonehearth\/entities\/decoration\/wooden_wall_lantern\/wooden_wall_lantern_ghost.json",
+						"stonehearth:construction_progress" : {
+							"building_entity" : 4946748,
+							"fabricator_component_name" : "stonehearth:fixture_fabricator"
+						}
+					}
+				},
+				"stonehearth:construction_progress" : {
+					"building_entity" : 4946748,
+					"fabricator_component_name" : "stonehearth:fabricator"
+				}
+			},
+			"4946787" : {
+				"stonehearth:floor" : {
+					"connected_to" : {},
+					"category" : "foundation"
+				},
+				"mob" : {
+					"orientation" : {
+						"y" : 0,
+						"x" : 0,
+						"w" : 1,
+						"z" : 0
+					},
+					"position" : {
+						"y" : -1,
+						"x" : 0,
+						"z" : 0
+					}
+				},
+				"stonehearth:construction_data" : {},
+				"shape" : [
+					{
+						"max" : {
+							"y" : 1,
+							"x" : 13,
+							"z" : 1
+						},
+						"min" : {
+							"y" : 0,
+							"x" : 0,
+							"z" : -9
+						},
+						"tag" : 6657189
+					}
+				],
+				"uri" : "stonehearth:build:prototypes:floor",
+				"children" : {
+					"5104290" : {
+						"mob" : {
+							"orientation" : {
+								"y" : 0.707107,
+								"x" : 0,
+								"w" : -0.707107,
+								"z" : 0
+							},
+							"position" : {
+								"y" : 1,
+								"x" : 2,
+								"z" : -1
+							}
+						},
+						"stonehearth:fixture_fabricator" : {
+							"normal" : {
+								"y" : 1,
+								"x" : 0,
+								"z" : 0
+							},
+							"fixture_uri" : "stonehearth:containers:leather_bound_chest",
+							"rotation" : 270
+						},
+						"uri" : "\/stonehearth\/entities\/containers\/leather_bound_chest\/leather_bound_chest_ghost.json",
+						"stonehearth:construction_progress" : {
+							"building_entity" : 4946748,
+							"fabricator_component_name" : "stonehearth:fixture_fabricator"
+						}
+					},
+					"5022184" : {
+						"mob" : {
+							"orientation" : {
+								"y" : 1,
+								"x" : 0,
+								"w" : 0,
+								"z" : 0
+							},
+							"position" : {
+								"y" : 1,
+								"x" : 10,
+								"z" : -3
+							}
+						},
+						"stonehearth:fixture_fabricator" : {
+							"normal" : {
+								"y" : 1,
+								"x" : 0,
+								"z" : 0
+							},
+							"fixture_uri" : "stonehearth:furniture:comfy_chair",
+							"rotation" : 180
+						},
+						"uri" : "\/stonehearth\/entities\/furniture\/comfy_chair\/comfy_chair_ghost.json",
+						"stonehearth:construction_progress" : {
+							"building_entity" : 4946748,
+							"fabricator_component_name" : "stonehearth:fixture_fabricator"
+						}
+					},
+					"5104014" : {
+						"mob" : {
+							"orientation" : {
+								"y" : 0.707107,
+								"x" : 0,
+								"w" : -0.707107,
+								"z" : 0
+							},
+							"position" : {
+								"y" : 1,
+								"x" : 2,
+								"z" : -3
+							}
+						},
+						"stonehearth:fixture_fabricator" : {
+							"normal" : {
+								"y" : 1,
+								"x" : 0,
+								"z" : 0
+							},
+							"fixture_uri" : "stonehearth:containers:leather_bound_chest",
+							"rotation" : 270
+						},
+						"uri" : "\/stonehearth\/entities\/containers\/leather_bound_chest\/leather_bound_chest_ghost.json",
+						"stonehearth:construction_progress" : {
+							"building_entity" : 4946748,
+							"fabricator_component_name" : "stonehearth:fixture_fabricator"
+						}
+					},
+					"5020963" : {
+						"mob" : {
+							"orientation" : {
+								"y" : 0,
+								"x" : 0,
+								"w" : 1,
+								"z" : 0
+							},
+							"position" : {
+								"y" : 1,
+								"x" : 10,
+								"z" : -1
+							}
+						},
+						"stonehearth:fixture_fabricator" : {
+							"normal" : {
+								"y" : 1,
+								"x" : 0,
+								"z" : 0
+							},
+							"fixture_uri" : "stonehearth:furniture:writing_desk",
+							"rotation" : 0
+						},
+						"uri" : "\/stonehearth\/entities\/furniture\/writing_desk\/writing_desk_ghost.json",
+						"stonehearth:construction_progress" : {
+							"building_entity" : 4946748,
+							"fabricator_component_name" : "stonehearth:fixture_fabricator"
+						}
+					},
+					"4989720" : {
+						"mob" : {
+							"orientation" : {
+								"y" : 1,
+								"x" : 0,
+								"w" : 0,
+								"z" : 0
+							},
+							"position" : {
+								"y" : 1,
+								"x" : 9,
+								"z" : -8
+							}
+						},
+						"stonehearth:fixture_fabricator" : {
+							"normal" : {
+								"y" : 1,
+								"x" : 0,
+								"z" : 0
+							},
+							"fixture_uri" : "stonehearth:cook:oven",
+							"rotation" : 180
+						},
+						"uri" : "\/stonehearth\/jobs\/cook\/cook_oven\/cook_oven_ghost.json",
+						"stonehearth:construction_progress" : {
+							"building_entity" : 4946748,
+							"fabricator_component_name" : "stonehearth:fixture_fabricator"
+						}
+					},
+					"4988521" : {
+						"mob" : {
+							"orientation" : {
+								"y" : 1,
+								"x" : 0,
+								"w" : 0,
+								"z" : 0
+							},
+							"position" : {
+								"y" : 1,
+								"x" : 6,
+								"z" : -8
+							}
+						},
+						"stonehearth:fixture_fabricator" : {
+							"normal" : {
+								"y" : 1,
+								"x" : 0,
+								"z" : 0
+							},
+							"fixture_uri" : "stonehearth:cook:workbench",
+							"rotation" : 180
+						},
+						"uri" : "\/stonehearth\/jobs\/cook\/cook_workbench\/cook_workbench_ghost.json",
+						"stonehearth:construction_progress" : {
+							"building_entity" : 4946748,
+							"fabricator_component_name" : "stonehearth:fixture_fabricator"
+						}
+					},
+					"5023756" : {
+						"mob" : {
+							"orientation" : {
+								"y" : 0.707107,
+								"x" : 0,
+								"w" : -0.707107,
+								"z" : 0
+							},
+							"position" : {
+								"y" : 1,
+								"x" : 1,
+								"z" : -6
+							}
+						},
+						"stonehearth:fixture_fabricator" : {
+							"normal" : {
+								"y" : 1,
+								"x" : 0,
+								"z" : 0
+							},
+							"fixture_uri" : "stonehearth:cook:mill",
+							"rotation" : 270
+						},
+						"uri" : "\/stonehearth\/jobs\/cook\/cook_mill\/cook_mill_ghost.json",
+						"stonehearth:construction_progress" : {
+							"building_entity" : 4946748,
+							"fabricator_component_name" : "stonehearth:fixture_fabricator"
+						}
+					}
+				},
+				"stonehearth:construction_progress" : {
+					"building_entity" : 4946748,
+					"fabricator_component_name" : "stonehearth:fabricator"
+				}
+			}
+		},
+		"stonehearth:construction_progress" : {}
+	}
+}
